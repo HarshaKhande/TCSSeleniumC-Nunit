@@ -1,0 +1,3 @@
+Launch browser
+Products display
+Close  browser

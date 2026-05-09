@@ -1,0 +1,6 @@
+Launch browser
+Payment2 Started
+Start Test4: 10:48:28
+Test4 Thread: 16
+End Test4: 10:48:33
+Close  browser

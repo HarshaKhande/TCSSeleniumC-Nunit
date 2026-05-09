@@ -1,0 +1,3 @@
+Launch browser
+Item added to cart
+Close  browser

@@ -1,0 +1,3 @@
+Launch browser
+Logged out of the application
+Close  browser
