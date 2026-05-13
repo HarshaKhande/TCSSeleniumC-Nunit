@@ -78,6 +78,30 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.43.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.43.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[148.0.7778.9700, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.36.0, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[147.0.3912.98, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.17.7, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.4, )"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CloudCommTCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5550f2f88ee27322a32c1c162381532b6b2834f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CloudCommTCS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CloudCommTCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

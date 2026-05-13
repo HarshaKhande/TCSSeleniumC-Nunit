@@ -12,7 +12,10 @@
           "Allure.NUnit": "2.15.0",
           "Microsoft.NET.Test.Sdk": "17.14.0",
           "NUnit": "4.3.2",
-          "NUnit3TestAdapter": "5.0.0"
+          "NUnit3TestAdapter": "5.0.0",
+          "Selenium.Support": "4.43.0",
+          "Selenium.WebDriver": "4.43.0",
+          "WebDriverManager": "2.17.7"
         },
         "runtime": {
           "CloudCommTCS.dll": {}
@@ -52,6 +55,14 @@
           "lib/netstandard2.0/Allure.NUnit.dll": {
             "assemblyVersion": "2.15.0.0",
             "fileVersion": "2.15.0.0"
+          }
+        }
+      },
+      "AngleSharp/1.1.2": {
+        "runtime": {
+          "lib/net8.0/AngleSharp.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
           }
         }
       },
@@ -582,6 +593,63 @@
           "Microsoft.Testing.Extensions.VSTestBridge": "1.5.3",
           "Microsoft.Testing.Platform.MSBuild": "1.5.3"
         }
+      },
+      "Selenium.Support/4.43.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.43.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.43.0": {
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/selenium-manager": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/selenium-manager": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/selenium-manager.exe": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SharpZipLib/1.4.2": {
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.4.2.13",
+            "fileVersion": "1.4.2.13"
+          }
+        }
+      },
+      "WebDriverManager/2.17.7": {
+        "dependencies": {
+          "AngleSharp": "1.1.2",
+          "Newtonsoft.Json": "13.0.4",
+          "SharpZipLib": "1.4.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebDriverManager.dll": {
+            "assemblyVersion": "2.17.7.0",
+            "fileVersion": "2.17.7.0"
+          }
+        }
       }
     }
   },
@@ -611,6 +679,13 @@
       "sha512": "sha512-qALmHBrEtrcyYP/QFPIGSIYoYeIb5XoVkXwDNFg23s9iLLuPQ7PHbTBwKL6d07oXtF0b5dU7VBUb4vRK/LeiAg==",
       "path": "allure.nunit/2.15.0",
       "hashPath": "allure.nunit.2.15.0.nupkg.sha512"
+    },
+    "AngleSharp/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aRFpAqixbuj1Vmqy2hsWPF0PJygo1SfjvmpBvVWZv6i+/u+C/L4wDdwFIzyCGUbjqr61NsZdPNPqDE8wlmG2qA==",
+      "path": "anglesharp/1.1.2",
+      "hashPath": "anglesharp.1.1.2.nupkg.sha512"
     },
     "AspectInjector/2.8.1": {
       "type": "package",
@@ -716,6 +791,34 @@
       "sha512": "sha512-sy4cLoUAdE6TDM4wNX5gmNCyhMev5wUz4cA6ZRf/aON9vf9t4xTVGLj/4huhDKcS4dFfmVVcgcP70yC7WC9kKg==",
       "path": "nunit3testadapter/5.0.0",
       "hashPath": "nunit3testadapter.5.0.0.nupkg.sha512"
+    },
+    "Selenium.Support/4.43.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q395pb0VkESAlyf+caT6qaFIfI6OPR0kWZZRaKh7Zxx5Ci7qIMfwpRzyJq+E/DA5bnbH5uhAq4TI3p57E1AvhQ==",
+      "path": "selenium.support/4.43.0",
+      "hashPath": "selenium.support.4.43.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.43.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gsT0/pFeTUbyeUL9qcf/KLeII802sZrRNeb7YGKKOlFfT50MKxggWQW3Wh9p82IstCcXG91Ya9OLbu3tH/BRoQ==",
+      "path": "selenium.webdriver/4.43.0",
+      "hashPath": "selenium.webdriver.4.43.0.nupkg.sha512"
+    },
+    "SharpZipLib/1.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "path": "sharpziplib/1.4.2",
+      "hashPath": "sharpziplib.1.4.2.nupkg.sha512"
+    },
+    "WebDriverManager/2.17.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n56UW4bd7EE0yKQLpZ0R24dA6+Pvcwg39/VhkNKQK4gMKRNTUCZuqeo2sVw/EsoGyxiUBopsZMAkwtyoKWX/fA==",
+      "path": "webdrivermanager/2.17.7",
+      "hashPath": "webdrivermanager.2.17.7.nupkg.sha512"
     }
   }
 }
